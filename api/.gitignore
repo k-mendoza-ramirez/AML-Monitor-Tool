@@ -1,0 +1,54 @@
+### .NET / C# ###
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core static assets cache
+**/staticwebassets*
+**/BundleConfig.json
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+
+# Rider
+.idea/
+
+### Node / React / Vite ###
+web/node_modules/
+web/dist/
+web/.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files (keep secrets out of git)
+.env
+.env.*
+web/.env
+web/.env.*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+### Docker / Postgres ###
+# Docker bind-mounted volumes
+pgdata/
+docker-compose.override.yml
+
+# Secrets
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.secrets.json
